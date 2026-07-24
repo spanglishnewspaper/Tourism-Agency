@@ -16,37 +16,58 @@ const bikes = [
         image: "images/mountain2.jpg"
     },
     {
-        name: "Speed Pro",
+        name: {
+            en: "Speed Pro",
+            es: "Speed Pro"
+        },
         type: "road",
         image: "images/road1.jpg"
     },
     {
-        name: "Velocity X",
+        name: {
+            en: "Velocity X",
+            es: "Velocidad X"
+        },
         type: "road",
         image: "images/road2.jpg"
     },
     {
-        name: "Eco Cruiser",
+        name: {
+            en: "Eco Cruiser",
+            es: "Crucero Ecológico"
+        },
         type: "electric",
         image: "images/ebike1.jpg"
     },
     {
-        name: "Urban Volt",
+        name: {
+            en: "Urban Volt",
+            es: "Voltio Urbano"
+        },
         type: "electric",
         image: "images/ebike2.jpg"
     },
     {
-        name: "City Comfort",
+        name: {
+            en: "City Comfort",
+            es: "Confort Urbano"
+        },
         type: "city",
         image: "images/city1.jpg"
     },
     {
-        name: "Daily Rider",
+        name: {
+            en: "Daily Rider",
+            es: "Ciclista Diario"
+        },
         type: "city",
-        image: "images/city2.jpg"                               
+        image: "images/city2.jpg"
     }/*,
-        {
-        name: "oger-mobil",
+    {
+        name: {
+            en: "oger-mobil",
+            es: "Móvil Ogro"
+        },
         type: "city",
         image: "https://raw.githubusercontent.com/iamcool12345/iamcool12345.github.io/refs/heads/main/images/bikes/Drache.png"
     }*/

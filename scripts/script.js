@@ -1,5 +1,5 @@
 $(document).ready(loaded);
-
+console.log("script.js loader");
 
 const categories = [
     "all",

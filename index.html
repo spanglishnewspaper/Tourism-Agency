@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link rel="stylesheet" type="text/css" href="scripts/stylE.css"/>
       <link rel="icon" href="images/favicon.png" type="image/x-icon">
       <title>Tourism Agency</title>
    </head>
@@ -67,18 +67,18 @@
                <h2>Booking</h2>
                <form action="https://formspree.io/f/xrenkkyw" method="POST">
                   <label id="fname">First Name</label><br>
-                  <input type="text" name="fname"><br>
+                  <input type="text" name="fname" required><br>
                   <label id="lname">Last Name</label><br>
-                  <input type="text" name="lname"><br>
+                  <input type="text" name="lname" required><br>
                   <label id="email">Email</label><br>
-                  <input type="email" name="email"><br>
+                  <input type="email" name="email" required><br>
                   <label id="btype">Bike Type</label><br>
                   <select name="bikeType" id="bikeSelect" required></select><br>
                   <label id="quantity">Quantity</label><br>
-                  <input type="number" name="Quantity"><br>
+                  <input type="number" name="Quantity" required><br>
                   <label id="date">date </label><br>
-                  <input type="date" name="date"><br>
-                  <button id="bookutton" title="CLICK!!"type="submit">Book Now</button>
+                  <input type="date" name="date" required><br>
+                  <button id="bookbutton" title="CLICK!!"type="submit">Book Now</button>
                </form>
             </div>
          </div>
@@ -86,21 +86,23 @@
       <link rel="stylesheet"href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
       <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
-      <script src="jquery.js" type="text/javascript"></script>
+      <script src="scripts/jquery.js" type="text/javascript"></script>
       <script src="bikes.js" type="text/javascript"></script>
       <script src="infocards_links.js" type="text/javascript"></script>
-      <script src="script.js" type="text/javascript"></script>
+      <script src="scripts/script.js" type="text/javascript"></script>
       <script src="translationvalues.js" type="text/javascript"></script>
-      <script src="localization.js" type="text/javascript"></script>
+      <script src="scripts/localization.js" type="text/javascript"></script>
    </body>
    <footer>
       <div >
-         <p id="Information">Information</p>
+         <p id="information">Information</p>
          <p id="imprint"><u>imprint</u></p>
          <p id="legal"><u>legal</u></p>
-         <p id="contact">contact<br>
+         <p id="contact">contact</p>
          <p id="address">
-            <span style="color: aqua;">address: </span>address
+            <span style="color: aqua;">address: </span>
+            <br>
+            address
             <br>
             address
             <br>

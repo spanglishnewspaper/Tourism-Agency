@@ -15,7 +15,7 @@ body {
 	/* -moz-user-select: none; */
 	/* -ms-user-select: none; */
 	/* background-color: #808080; */
-	background-image: url("background.jpg");
+	background-image: url("../images/background.jpg");
 	background-color: #808080;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -183,7 +183,7 @@ body {
 .gridbox h2 {
 	margin-bottom: 15px;
 }
-.formbox label, .gridbox,.header,#intro,.bike-section{
+ .gridbox,.header,#intro,.bike-section, .formbox{
 	user-select: none;
 }
 
@@ -429,7 +429,7 @@ body {
 	font-size: 42px;
 	font-family: Arial;
 	margin-bottom: 30px;
-	text-shadow: 2px 2px 4px black;
+	text-shadow: 4px 4px 3px black;
 }
 
 .bike-filters {
@@ -603,6 +603,7 @@ body {
     border: 6px ridge white;
 	border-radius: 4px;
 	overflow: hidden;
+	user-select: none;
 }
 
 
@@ -642,7 +643,7 @@ body {
 	user-select: none;
 	color: #4db8ff;
 }
-#Information{
+#information{
 	margin-top: 0%;
 	user-select: none;
 }
