@@ -22,18 +22,6 @@ function pressed(number){
         case 6://accomodations
             window.open("");
         break;
-        case 7://left banner
-          window.open("");
-        break;
-        case 8://right banner
-          window.open("");
-        break;
-        case 9://left booking banner
-          window.open("");
-        break;
-        case 10://right booking banner
-          window.open("");
-        break;
         case 11://imprint
           window.open("imprint.html");
         break;
