@@ -20,7 +20,7 @@ function pressed(number){
             window.open("https://reckssel.github.io/newspaper_for_vamos/");
         break;
         case 6://accomodations
-            window.open("https://web.archive.org/web/20251130071750im_/http://www.themostamazingwebsiteontheinternet.com/");
+            window.open("");
         break;
         case 7://left banner
           window.open("");
