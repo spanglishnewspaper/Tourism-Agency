@@ -62,13 +62,5 @@ const bikes = [
         },
         type: "city",
         image: "images/city2.jpg"
-    }/*,
-    {
-        name: {
-            en: "oger-mobil",
-            es: "Móvil Ogro"
-        },
-        type: "city",
-        image: "https://raw.githubusercontent.com/iamcool12345/iamcool12345.github.io/refs/heads/main/images/bikes/Drache.png"
-    }*/
+    }
 ];
