@@ -647,3 +647,362 @@ body {
 	margin-top: 0%;
 	user-select: none;
 }
+
+/* ====== TABLET RESPONSIVE (768px and below) ====== */
+@media (max-width: 768px) {
+	body {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#main {
+		grid-template-columns: 1fr;
+	}
+
+	.header {
+		font-size: 60px;
+		margin-top: 15px;
+	}
+
+	#intro {
+		font-size: 70px;
+		margin-top: 100px;
+		margin-bottom: 150px;
+	}
+
+	.services-grid {
+		width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		margin-bottom: 50px;
+	}
+
+	.gridbox {
+		min-height: 300px;
+		padding: 15px;
+	}
+
+	.events {
+		grid-column: 1;
+	}
+
+	.accommodations {
+		grid-row: auto;
+		grid-column: span 2;
+	}
+
+	.formbox {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 20px;
+		padding: 20px;
+	}
+
+	.formbox input,
+	.formbox select {
+		width: 90%;
+	}
+
+	.formbox button {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 16px;
+	}
+
+	.bike-section {
+		width: 100%;
+		margin: 50px auto;
+	}
+
+	.section-title {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
+	.bike-type-selector {
+		gap: 15px;
+		margin-bottom: 30px;
+	}
+
+	.bike-type-selector button {
+		width: 15%;
+		font-size: 14px;
+		padding: 0.5ex 0.5em;
+	}
+
+	#currentType {
+		font-size: 20px;
+		min-width: 100px;
+	}
+
+	.bike-deck {
+		gap: 15px;
+	}
+
+	.bike-card {
+		width: 220px;
+	}
+
+	#map {
+		width: 100%;
+		height: 400px;
+		margin: 30px auto;
+	}
+
+	.booking-left,
+	.booking-right {
+		display: none;
+	}
+
+	.booking-section {
+		width: 100%;
+		justify-content: center;
+	}
+
+	footer,
+	footer div {
+		width: 100%;
+		height: auto;
+		font-size: 16px;
+		padding: 20px 10px;
+	}
+
+	#address,
+	#phone,
+	#contact {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.topbar {
+		height: auto;
+	}
+
+	.topbar-content {
+		flex-direction: column;
+		gap: 10px;
+		padding: 10px 0;
+	}
+
+	.topbar-left {
+		font-size: 14px;
+	}
+
+	.topbar-right {
+		gap: 5px;
+		font-size: 11px;
+	}
+
+	.topbar-right a {
+		text-decoration: none;
+	}
+}
+
+/* ====== MOBILE RESPONSIVE (480px and below) ====== */
+@media (max-width: 480px) {
+	body {
+		margin-left: 0;
+		margin-right: 0;
+		background-attachment: scroll;
+	}
+
+	#main {
+		grid-template-columns: 1fr;
+	}
+
+	.header {
+		font-size: 40px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	#intro {
+		font-size: 45px;
+		margin-top: 60px;
+		margin-bottom: 80px;
+	}
+
+	.services-grid {
+		width: 100%;
+		grid-template-columns: 1fr;
+		gap: 15px;
+		margin-bottom: 30px;
+		padding: 0 10px;
+	}
+
+	.gridbox {
+		min-height: 250px;
+		padding: 12px;
+		font-size: 16px;
+		border-width: 3px;
+	}
+
+	.gridbox h2 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.accommodations {
+		grid-column: 1;
+	}
+
+	.formbox {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 16px;
+		padding: 15px;
+		border-width: 4px;
+	}
+
+	.formbox label {
+		font-size: 14px;
+	}
+
+	.formbox input,
+	.formbox select {
+		width: 95%;
+		font-size: 16px;
+		padding: 10px;
+		margin: 6px 0 15px 0;
+	}
+
+	.formbox button {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	.bike-section {
+		width: 100%;
+		margin: 30px 0;
+		padding: 0 10px;
+	}
+
+	.section-title {
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+
+	.bike-type-selector {
+		flex-direction: column;
+		gap: 10px;
+		margin-bottom: 20px;
+	}
+
+	.bike-type-selector button {
+		width: 40%;
+		font-size: 12px;
+	}
+
+	#currentType {
+		font-size: 16px;
+		min-width: auto;
+	}
+
+	.bike-deck {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.bike-card {
+		width: 100%;
+		max-width: 280px;
+	}
+
+	.bike-card img {
+		height: 150px;
+	}
+
+	.bike-card h3 {
+		font-size: 14px;
+		margin: 10px 0 5px;
+	}
+
+	.bike-card p {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	#map {
+		width: 100%;
+		height: 300px;
+		margin: 20px 0;
+		border-width: 3px;
+	}
+
+	.booking-section {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	footer,
+	footer div {
+		width: 100%;
+		height: auto;
+		font-size: 14px;
+		padding: 15px 10px;
+		border-radius: 0;
+	}
+
+	footer p {
+		margin: 8px 0;
+	}
+
+	#address,
+	#phone,
+	#contact,
+	#information,
+	#imprint,
+	#legal {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	#address span,
+	#phone span {
+		display: block;
+		margin-bottom: 3px;
+	}
+
+	.topbar {
+		height: auto;
+		font-size: 11px;
+	}
+
+	.topbar-content {
+		flex-direction: column;
+		gap: 8px;
+		padding: 8px 5px;
+		width: 100%;
+	}
+
+	.topbar-left {
+		font-size: 12px;
+	}
+
+	.topbar-right {
+		gap: 3px;
+		font-size: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.topbar-right a {
+		font-size: 10px;
+	}
+
+	.topbar-right span {
+		margin: 0 2px;
+	}
+
+	#langToggle {
+		font-size: 10px;
+		padding: 2px 6px;
+	}
+}
